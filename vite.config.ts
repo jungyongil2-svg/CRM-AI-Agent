@@ -10,6 +10,7 @@ import { matchCustomersWithSmsRag } from "./src/server/excelRagMatch";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
+  base: "/CRM-AI-Agent/",
   plugins: [
     react(),
     {
